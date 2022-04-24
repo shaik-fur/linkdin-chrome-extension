@@ -7,11 +7,11 @@ Steps to use the extension:
   download the .crx file availabe in the repository.
   search for crx extractor in your web browser.
   download the extracted file.
-  now extract the folder form the downloaded zip file.
+  now extract the files into a folder form the downloaded zip file.
   go to chrome settings click on extensions.
   enable developer mode.
   click on load unpacked.
-  select the extracted folder and click on open.
+  select the folder containing the extracted files and click on open.
   your extension is installed and you are ready to go...
   
  How does it work?
