@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="popup.css">
+    <title>Send connections</title>
+</head>
+<body class="bodyclass">
+    <h1 class="hclass">Send connections</h1>
+<div class="progress">
+    <svg class="progress-circle" width="200px" height="200px" xmlns="http://www.w3.org/2000/svg">
+	    <circle class="progress-circle-back"
+		        cx="80" cy="80" r="74"></circle>
+        <circle class="progress-circle-prog" id="prog"
+                cx="80" cy="80" r="74"></circle>
+    </svg>
+	  <div class="progress-text" id="dataprog" data-progress="0">0</div>
+</div>
+    <button id="connect">Connect</button>
+    <script src="popup.js"></script>
+    <script src="progress.js"></script>
+</body>
+</html>
