@@ -44,6 +44,7 @@ body {
 	top: 60px;
 	text-align: center;
 	font-size: 2em;
+    color: white;
 }
 
 #connect{
@@ -52,11 +53,14 @@ body {
     position: absolute;
     width: 100px;
     height: 30px;
+    background-color:lightslategray;
 }
 .bodyclass{
-    background-color:aliceblue;
+    background-color: black;
 }
 .hclass{
     text-align: center;
     margin-top: 10px;
+    color: white;
+    margin-bottom: 5px;
 }
